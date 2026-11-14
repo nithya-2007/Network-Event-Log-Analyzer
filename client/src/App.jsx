@@ -363,6 +363,46 @@ function App() {
   </div>
 </section>
 
+<section className="logs-section flat-section">
+  <h2>Computer Networks Concepts Used</h2>
+  <p className="section-description">
+    Networking concepts related to network event monitoring
+  </p>
+
+  <div className="concept-grid">
+    <div className="concept-card">
+      <h3>IP Address</h3>
+      <p>Identifies the source and destination devices in network logs.</p>
+      <span className="concept-status">Implemented</span>
+    </div>
+
+    <div className="concept-card">
+      <h3>TCP / UDP</h3>
+      <p>Identifies the transport protocols used in network communication.</p>
+      <span className="concept-status">Implemented</span>
+    </div>
+
+    <div className="concept-card">
+      <h3>Port Number</h3>
+      <p>Identifies the application service associated with network traffic.</p>
+      <span className="concept-status">Implemented</span>
+    </div>
+
+    <div className="concept-card">
+      <h3>Network Monitoring</h3>
+      <p>Monitors network events and records successful and failed activities.</p>
+      <span className="concept-status">Implemented</span>
+    </div>
+
+    <div className="concept-card">
+      <h3>Network Security</h3>
+      <p>Highlights repeated failed events through security alerts.</p>
+      <span className="concept-status">Implemented</span>
+    </div>
+  </div>
+</section>
+
+
       </main>
 
       <footer>
